@@ -140,7 +140,7 @@ The Model was trained using approximately 6000 image belonging to two classes wi
 
 # Conclusion
 
-The network gave an accuracy of about 75% on testing
+The network gave an accuracy of about 75% on testing.
 We ultimately envision the model being implemented in a wearable device (Apple Watch, Garmin) or home device (Amazon Echo). The device could prompt you to answer a simple question in the morning and a simple question before bed on a daily basis. The model stores your predicted depression score and tracks it over time, such that the model can learn from your baseline. If a threshold is crossed, it notifies you to seek help, or in extreme cases, notifies an emergency contact to help you help yourself. This initial model provides a solid foundation and promising directions for detecting depression with spectrograms. Depression moves across a spectrum, so deriving a binary classification (depressed, not depressed) from a single test (PHQ-8) is somewhat na ̈ıve and perhaps unrealistic. The threshold for a depression classification was a score of 10, but how much difference in depression-related speech prosody exists between a score of 9 (classified as not depressed) and a 10 (classified as depressed)? For this reason, the problem may be better approached by using regression techniques to predict participants’ PHQ-8 scores and scoring the model based on RMSE.
 We would prioritize future efforts as follows:
 
