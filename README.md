@@ -3,6 +3,11 @@ Project by Sukesh Shenoy and Megha ghosh
 The project was done in Pyhton 3 in Google Colab notebook 
 Due to the sensitivity of data the dataset is not include which can be downloaded [here](http://dcapswoz.ict.usc.edu/)
 
+Since this is an old project I've not actively updated all the codes of dependencies so downgrading the packages to 
+-  scikit-learn==0.22.2
+- tensorflow<2.0
+
+
 ## Introduction
 
 We have used the DAIC-WOZ Depression Database to train our model. This database is part of a larger corpus, the Distress Analysis Interview Corpus (DAIC) (Gratch et
